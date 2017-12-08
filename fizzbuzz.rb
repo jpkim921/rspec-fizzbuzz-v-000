@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 
 def fizzbuzz(num)
   if num % 15 == 0
@@ -7,7 +7,7 @@ def fizzbuzz(num)
     return "Buzz"
   elsif num % 3 == 0
     return "Fizz"
-    # binding.pry
+    binding.pry
   else
     return nil
   end
