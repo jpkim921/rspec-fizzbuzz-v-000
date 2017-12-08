@@ -7,10 +7,11 @@ def fizzbuzz(num)
     return "Buzz"
   elsif num % 3 == 0
     return "Fizz"
-    binding.pry
   else
     return nil
   end
 
 
 end
+
+binding.pry
